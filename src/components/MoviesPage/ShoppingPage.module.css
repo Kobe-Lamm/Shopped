@@ -1,0 +1,41 @@
+.checkOutContainer {
+    width: 50rem;
+    height: 60rem;
+    padding: 5rem;
+    border: 0.1rem solid black;
+    margin-left: 30rem;
+    justify-content: center;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cartItemContainer {
+    overflow-y: scroll;
+}
+
+.cartInformation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin: 2rem;
+}
+
+.checkOutButton{
+    margin-top:2rem;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.checkOutButton:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
