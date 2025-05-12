@@ -1,5 +1,5 @@
 
-import style from './CheckOutProductPage.module.css'
+import style from './CheckoutProductPage.module.css'
 
 const CheckOutProductCard = ({name, id, price, imageUrl, count}) => {
     return(
